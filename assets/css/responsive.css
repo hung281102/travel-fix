@@ -1,0 +1,162 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .content{
+        overflow: hiden;
+    }
+    .nav-list-link{
+        display: none;
+    }
+    .content-innfomation-right{
+        min-height: 400px;
+        margin: 50px 0;
+    }
+    .content__tour{
+        margin-top: 180px;
+    }
+    .content-frame-time{
+        width: 100%;
+        left: 0;
+        right:0;
+        bottom: -110px;
+    }
+    .YH__body{
+        padding: 60px 0 0 0;
+    }
+   .spacing{
+       padding-bottom: 16px;
+    
+   }
+    .tour__img{
+        padding-left: 20px;
+    }
+    .content-tour__spacing{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .out-packages__items{
+        margin-bottom: 30px ;
+    }
+    .footer__head{
+        padding: 50px 0;
+    }
+    .footer{
+        height: 1200px;
+       
+    }
+    .footer-right__wrap{
+        padding: 45px 40px 20px;
+    }
+    .content__discover{
+        height: 540px;
+    }
+    .footer-bottom__heading{
+        padding: 0 10px;
+    }
+
+    
+}
+/* tablet */
+@media (min-width: 740px)  and (max-width: 1023px) {
+    .hide-on-tablet{
+        display: none;
+    }
+    .slide-bar__footer{
+        margin: 30px 0 400px 0;
+    }
+}
+/* mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    .header__logo{
+        padding: 0 40px;
+    }
+    .slider-container{
+        text-align: center;
+        transform: translate(-50%, -47%);
+    }
+    .slider__heading{
+        font-size: 4rem;
+    }
+    .slider__heading::before{
+        width: 140px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .slider__list-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .slider__img-background{
+        height: 60px;
+        margin: 10px;
+    }
+    .slider__img{
+        width: 25px;
+        height: 25px;
+    }
+    .slider__img-text{
+        font-size: 1rem;
+    }
+    .content__out-destination{
+        margin: 0 15px;
+    }
+    .content__your-holiday{
+        margin: 40px 0 50px 0;
+    }
+    .YH__body{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .YH__heading-2::after{
+        right: 50%;
+        transform: translateX(calc(50% - 2px));
+        width: 275px;
+    }
+    .YH__button-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .content__button{
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .content__discover-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .content__discover{
+        height: 540px;
+    }
+
+    .OP__body{
+        padding: 0 10px;
+    }
+    .footer__head{
+        text-align: center;
+    }
+    .footer-right__wrap{
+       padding:30px 20px 20px 60px;
+    }
+    .footer-right__list{
+        padding-top: 20px;
+    }
+    .content{
+        margin-bottom: 50px;
+    }
+    .footer-bottom__wrap{
+       display: flex;
+       flex-direction: column;
+    }
+    .footer{
+         height: 1450px;
+    }
+    .footer-bottom__wrap{
+        display: none;
+    }
+}
